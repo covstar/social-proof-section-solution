@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("images/bg-pattern-top-desktop.svg"),
+    url("images/bg-pattern-bottom-desktop.svg");
+    background-position: left top, bottom right;
+    background-repeat: no-repeat;
+   padding: 10% 10% 0;
+   font-family: "outfit";
+}
+
+/* Mobile View */
+
+
+/* Headings */
+
+h1{
+    color: #502050;
+    font-size: 3rem;
+    padding-bottom: 6%;
+    line-height: 1.2;
+}
+
+
+/* Top Section */
+.top-section {
+    margin-bottom: 10%;
+    display: block;
+}
+
+.top-left{
+   text-align: center;
+}
+.top-left p{
+    line-height: 1.5;
+    color: #686767;
+}
+.ratings {
+    font-size: 1rem;
+    background-color: #f7f2f7;
+    margin-top: 7%;
+    border-radius: 8px;
+    padding: 10% 0;
+}
+.ratings p{
+    padding: 1% 5% 0;
+    color: #502050;
+    font-weight: 600;
+}
+.ratings img{
+    padding: 0 4px 5px;
+}
+.top-right{
+    text-align: center;
+    margin-top: 15%;
+}
+
+
+
+
+
+/* Bottom Section */
+
+
+/* Mobile View */
+
+
+.card-body{
+    background-color: #502050;
+    padding: 10%;
+    margin: 0 0 5% 0;
+    border-radius: 8px;
+    color: #ffeffd;
+    height: 100%;
+    width: 100%;
+}
+.card-body img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 8%;
+}
+.card-head{
+    float: right;
+    padding-right: 42%;
+}
+.card-head h4{
+    font-size: 1.1rem;
+}
+.card-head p{
+    color: #ee68a4;
+}
+.card-body p{
+     line-height: 1.5;
+}
+
+/* Footer / Atrribution */
+.attribution {
+    text-align: center;
+    font-size: .8rem;
+    padding: 5rem 1rem 3rem;
+    font-weight: 600;
+    color: black;
+}
+
+.attribution a {
+    text-decoration: none;
+    font-size: .8rem;
+    color: #ee68a4;
+}
+
+/* Desktop View */
+
+@media (min-width:1080px){
+    body {
+        padding: 5% 10% 0;
+    }
+    
+    .ratings {
+        padding: 5% 0 5% 10%;
+        width: 130%;
+        display: flex;
+        text-align: left;
+    }
+    
+    h1 {
+        padding-bottom: 3%;
+    }
+    
+    .ratings p {
+        padding: 0 5%;
+    }
+    
+    .ratings img {
+        padding: 0 2px 5px;
+    }
+    
+    .second-rating {
+        margin-left: 15%;
+    }
+    
+    .third-rating {
+        margin-left: 30%;
+    }
+    
+    .top-left {
+        padding-right: 15%;
+        width: 50%;
+        text-align: left;
+    }
+    
+    .top-right {
+        text-align: center;
+        margin-top: 0;
+    }
+    
+    .top-section {
+        display: flex;
+        margin-bottom: 8%;
+    }
+    .card{
+        display: flex;
+    }
+    .card-body{
+        margin: 0 2% 0 0;
+        padding: 3%;
+    }
+     .second-card{
+        margin-top: 20px;
+    }
+    .third-card{
+        margin-top: 40px;
+    }
+}
+
+

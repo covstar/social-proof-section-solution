@@ -8,7 +8,7 @@ body{
     background-position: left top, bottom right;
     background-repeat: no-repeat;
    padding: 10% 10% 0;
-   font-family: "outfit";
+   font-family: "Outfit", sans-serif;
 }
 
 /* Mobile View */
